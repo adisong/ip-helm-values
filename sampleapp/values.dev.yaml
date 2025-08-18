@@ -1,3 +1,6 @@
 replicaCount: 3
 
 springProfile: dev
+
+ingress:
+  host: sampleapp.dev.example.com

@@ -1,3 +1,6 @@
 replicaCount: 5
 
 springProfile: prd
+
+ingress:
+  host: sampleapp.example.com

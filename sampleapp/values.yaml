@@ -4,3 +4,6 @@ resources:
     memory: 32Mi
   limits:
     memory: 32Mi
+
+ingress:
+  enabled: true
