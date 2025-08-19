@@ -2,5 +2,11 @@ replicaCount: 5
 
 springProfile: prd
 
+config:
+  logLevel: info
+
+secretData:
+  DB_PASSWORD: "{{ randAlphaNum 20 }}"
+
 ingress:
   host: sampleapp.example.com

@@ -2,5 +2,11 @@ replicaCount: 3
 
 springProfile: dev
 
+config:
+  logLevel: debug
+
+secretData:
+  DB_PASSWORD: "{{ randAlphaNum 20 }}"
+
 ingress:
   host: sampleapp.dev.example.com
